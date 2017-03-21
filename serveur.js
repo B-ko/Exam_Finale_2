@@ -17,8 +17,12 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', function(req, res) {
-
-    res.render('index');
+	fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
+		if (err) return console.error(err);
+			obj = JSON.parse(data)
+			console.log(obj);
+		  	res.render('index.ejs', {provinces: obj});
+		});
 
 });
 
@@ -37,6 +41,10 @@ app.get('/tableau', function (req, res) {
 			console.log(obj);
 		  	res.render('index.ejs', {provinces: obj});
 		});
+})
+
+app.get('/collection', function (req, res) {
+ 	
 })
 
 
