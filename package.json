@@ -1,5 +1,5 @@
 {
-  "name": "epreuve_finale_volet_2",
+  "name": "epreuve_finale",
   "version": "1.0.0",
   "description": "Épreuve finale volet 2 du cours de veille technologique",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "Express",
     "MongoDB"
   ],
-  "author": "Eddy Martin",
+  "author": "Olivier Pic",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -20,5 +20,6 @@
     "express": "^4.15.2",
     "mongodb": "^2.2.25",
     "multer": "^1.3.0"
-  }
+  },
+  "devDependencies": {}
 }
