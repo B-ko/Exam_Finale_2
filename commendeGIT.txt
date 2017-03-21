@@ -1,0 +1,379 @@
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant
+$ git init
+Initialized empty Git repository in C:/Users/e1348790/Desktop/version_etudiant/.git/
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/less/style.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/text/collection_provinces.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   devis/.~lock.devis_volet_2.odt#
+        new file:   devis/devis_volet_2.odt
+        new file:   devis/devis_volet_2.pdf
+        new file:   devis/etape_1.png
+        new file:   devis/etape_2.png
+        new file:   devis/etape_3.png
+        new file:   devis/etape_4.png
+        new file:   devis/etape_5.png
+        new file:   devis/etape_6.png
+        new file:   etape.js
+        new file:   package.json
+        new file:   public/css/style.css
+        new file:   public/less/style.less
+        new file:   public/text/collection_provinces.json
+        new file:   views/index.ejs
+
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "début"
+[master (root-commit) 423ff98] début
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 16 files changed, 280 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 devis/.~lock.devis_volet_2.odt#
+ create mode 100644 devis/devis_volet_2.odt
+ create mode 100644 devis/devis_volet_2.pdf
+ create mode 100644 devis/etape_1.png
+ create mode 100644 devis/etape_2.png
+ create mode 100644 devis/etape_3.png
+ create mode 100644 devis/etape_4.png
+ create mode 100644 devis/etape_5.png
+ create mode 100644 devis/etape_6.png
+ create mode 100644 etape.js
+ create mode 100644 package.json
+ create mode 100644 public/css/style.css
+ create mode 100644 public/less/style.less
+ create mode 100644 public/text/collection_provinces.json
+ create mode 100644 views/index.ejs
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "installation package mongodb/ejs/express"
+[master c24efe3] installation package mongodb/ejs/express
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 27 insertions(+), 3 deletions(-)
+ create mode 100644 npm-debug.log.3151523126
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add ,
+fatal: pathspec ',' did not match any files
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "les autres package"
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "continuation etape 1"
+[master a28703a] continuation etape 1
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 21 insertions(+), 19 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "etape 1"
+[master 6d627ad] etape 1
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 25 insertions(+), 23 deletions(-)
+ create mode 100644 serveur.js
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "etape 1 fin"
+[master dd52302] etape 1 fin
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+), 9 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "etape 2 début/affichage de la page"
+[master a3075a0] etape 2 début/affichage de la page
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 18 insertions(+), 10 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "modification etape 1"
+On branch master
+Changes not staged for commit:
+        modified:   serveur.js
+        modified:   views/index.ejs
+
+no changes added to commit
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "modification etape 1"
+[master f893c28] modification etape 1
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 10 insertions(+), 4 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (mastewarning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "suite ept"
+[master 9452250] suite ept
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "suite etape 2"
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "etape 2 tableau"
+[master 176b70b] etape 2 tableau
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 10 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "fin etape 2"
+[master 2392432] fin etape 2
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 11 insertions(+), 5 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+gwarning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+it
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "modification etape 2"
+[master aad12c2] modification etape 2
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 11 insertions(+), 3 deletions(-)
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git add .
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ git commit -m "étape 3"
+
+e1348790@B1153-G98PFX1 MINGW64 /c/Users/e1348790/Desktop/version_etudiant (master)
+$ [master 6be64e5] étape 3
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 23 insertions(+), 5 deletions(-)
