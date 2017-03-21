@@ -5,13 +5,24 @@ var fs = require("fs");
 var obj;
 
 
-app.get('/', function (req, res) {
- 		fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
+
+app.set('view engine', 'ejs');
+
+
+
+app.get('/', function(req, res) {
+
+    res.render('index');
+
+});
+
+app.get('/fichier', function (req, res) {
+ 	fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
 		if (err) return console.error(err);
-		obj = JSON.parse(data)
-		  res.writeHead(200, {"Content-Type": "text/html"});
-		  res.write(data)
-		  res.end();
+			obj = JSON.parse(data)
+		  	res.writeHead(200, {"Content-Type": "text/html"});
+		  	res.write(data)
+		  	res.end();
 		});
 })
 
