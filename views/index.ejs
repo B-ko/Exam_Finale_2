@@ -22,11 +22,11 @@
   	  </header>
   	  <main>
 		  <table class="tableau">
-          <% for(var i=0; i<province.length; i++) {%>
-            <li class="client">
-            <span><%= province[i].code %></span>
-            <span><%= province[i].nome %></span>
-            <span><%= province[i].capitale %></span>
+          <% for(var i=0; i<provinces.length; i++) {%>
+            <li>
+            <span><%= provinces[i].code %></span>
+            <span><%= provinces[i].nome %></span>
+            <span><%= provinces[i].capitale %></span>
             </li>
           <% } %>
 		  </table>
